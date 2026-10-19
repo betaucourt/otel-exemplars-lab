@@ -1,0 +1,29 @@
+{
+  "name": "@otel-exemplars-lab/inspector-otlp-grpc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "run": "npm run build && npm run start",
+    "dev": "tsx watch index.ts",
+    "watch:build": "tsc -w -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "protobufjs": "^7.2.5",
+    "@grpc/proto-loader": "^0.7.6",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "@types/js-yaml": "^4.0.5"
+  },
+  "description": "Custom OpenTelemetry OTLP/gRPC MetricsService receiver in TypeScript for inspecting Prometheus Exemplars, trace_id/span_id correlations, and raw Protobuf payloads."
+}

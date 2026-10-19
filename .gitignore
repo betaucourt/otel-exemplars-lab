@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+*.db
+inspector-otlp-grpc/logs/metrics/json/*.json
+inspector-otlp-grpc/logs/metrics/yaml/*.yaml
+.DS_Store

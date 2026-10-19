@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  node-services:
+    name: Node.js Services (Inspector & Fastify)
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x, 22.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Build inspector-otlp-grpc
+        run: |
+          cd inspector-otlp-grpc
+          npm ci
+          npm run build
+
+      - name: Verify producer-node-fastify syntax
+        run: |
+          cd producer-node-fastify
+          node --check src/server.js
+
+  go-service:
+    name: Go Service (SQL Producer)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache-dependency-path: producer-go-sql/go.sum
+
+      - name: Build & Test producer-go-sql
+        run: |
+          cd producer-go-sql
+          go test ./...
+          go build -v .

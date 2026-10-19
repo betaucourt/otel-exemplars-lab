@@ -1,0 +1,177 @@
+{
+  "manifestId": "manifest:v1:6b60e4ea2833fd86",
+  "snapshotId": "snapshot:v1:project:v1:b34c28a49d6b2d4a:git:716ad9d553503d89b180c91c884ffc5beca80f06",
+  "datasetSchemaVersion": "ts-codegraph.dataset@1",
+  "templatePack": {
+    "packName": "all",
+    "packVersion": "1.0.0"
+  },
+  "documents": [
+    {
+      "docId": "generated-doc:v1:19ab48c9f82f74da",
+      "templateId": "package-overview",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/otel-exemplars-lab-inspector-otlp-grpc/overview.md",
+      "contentHash": "sha256:0cca3819ac7cfba4e3d0ed1c751782fc27f36a3db6f49f2b24cfe009c214246a",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:19ab48c9f82f74da:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:19ab48c9f82f74da:exports",
+          "slotId": "exports",
+          "heading": "Exports",
+          "headingSlug": "exports"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:19ab48c9f82f74da:dependencies",
+          "slotId": "dependencies",
+          "heading": "Dependencies",
+          "headingSlug": "dependencies"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:19ab48c9f82f74da:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    },
+    {
+      "docId": "generated-doc:v1:8c394d7cd4a15bc4",
+      "templateId": "api-reference",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/otel-exemplars-lab-inspector-otlp-grpc/api-reference.md",
+      "contentHash": "sha256:f18c4d586b1fc5ce1a0b8710321f68227607485e1f36166c72b1dbb4dcefb745",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbols",
+          "slotId": "symbols",
+          "heading": "API",
+          "headingSlug": "api"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:fa6aa4530acec7c7",
+          "slotId": "symbol",
+          "heading": "DEFAULT_METRICS_PROTO_REL_PATH",
+          "headingSlug": "default-metrics-proto-rel-path",
+          "symbolId": "symbol:v1:4adcb3cf119fe632"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:c2fe608071a19420",
+          "slotId": "symbol",
+          "heading": "ExemplarSample",
+          "headingSlug": "exemplarsample",
+          "symbolId": "symbol:v1:5d5eded3cc84bcd8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:4550bfca676825f9",
+          "slotId": "symbol",
+          "heading": "ExemplarSummary",
+          "headingSlug": "exemplarsummary",
+          "symbolId": "symbol:v1:b6db7a8b2df8a5fc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:e1d00369144b9408",
+          "slotId": "symbol",
+          "heading": "InspectorServerOptions",
+          "headingSlug": "inspectorserveroptions",
+          "symbolId": "symbol:v1:b4c0f6c5a5017b46"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:3542df67ad36ccdc",
+          "slotId": "symbol",
+          "heading": "MetricsServiceDefinition",
+          "headingSlug": "metricsservicedefinition",
+          "symbolId": "symbol:v1:011201ef1018a53d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:49917dd1b3ae5d22",
+          "slotId": "symbol",
+          "heading": "OutputDirectories",
+          "headingSlug": "outputdirectories",
+          "symbolId": "symbol:v1:204ca36b7bc68d85"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:a639799637ed97a1",
+          "slotId": "symbol",
+          "heading": "dataType",
+          "headingSlug": "datatype",
+          "symbolId": "symbol:v1:994874c9a950becc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:e6e4babe80889cd8",
+          "slotId": "symbol",
+          "heading": "ensureDirs",
+          "headingSlug": "ensuredirs",
+          "symbolId": "symbol:v1:9bcf9e795124917c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:df8ce0ae38646af6",
+          "slotId": "symbol",
+          "heading": "extractExemplarSummaries",
+          "headingSlug": "extractexemplarsummaries",
+          "symbolId": "symbol:v1:33e7d98d47b108b3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:976e3f81c97e91a0",
+          "slotId": "symbol",
+          "heading": "fileType",
+          "headingSlug": "filetype",
+          "symbolId": "symbol:v1:19ebcaac3955991c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:8e6bbd53325d4341",
+          "slotId": "symbol",
+          "heading": "loadMetricsService",
+          "headingSlug": "loadmetricsservice",
+          "symbolId": "symbol:v1:1811a09c087bfaac"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:809a5477a17da996",
+          "slotId": "symbol",
+          "heading": "requestToJson",
+          "headingSlug": "requesttojson",
+          "symbolId": "symbol:v1:f15289f2b930e19a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:6d14767c0e9b24d5",
+          "slotId": "symbol",
+          "heading": "requestToYaml",
+          "headingSlug": "requesttoyaml",
+          "symbolId": "symbol:v1:6201ccaf46a8c8a9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:4a5d85bcac4e95af",
+          "slotId": "symbol",
+          "heading": "startServer",
+          "headingSlug": "startserver",
+          "symbolId": "symbol:v1:b2d678fdab2b2134"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:symbol:3147628a9c78a210",
+          "slotId": "symbol",
+          "heading": "writeOutputs",
+          "headingSlug": "writeoutputs",
+          "symbolId": "symbol:v1:e8b36f5811cdb603"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:8c394d7cd4a15bc4:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}
